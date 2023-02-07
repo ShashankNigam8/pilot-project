@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pilot-project:
+    build:
+      context: pilot-project
+    image: springboot-docker-demo
+    ports:
+      - 9082:8081

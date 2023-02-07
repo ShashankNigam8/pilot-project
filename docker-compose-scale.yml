@@ -1,0 +1,6 @@
+version: "3"
+services:
+  pilot-project-test:
+    image: springboot-docker-demo
+    ports:
+      - 9080-9088:8081
